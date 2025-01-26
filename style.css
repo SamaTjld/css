@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background-color: rgb(219, 219, 219);
+  padding: 30px;
+  margin: 20px;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Roboto", serif;
+
+  /* font: normal 16px "Roboto", serif; */
+}
+.info {
+  display: flex;
+}
+@media (max-width: 700px) {
+  .info {
+    text-align: center;
+    display: block;
+  }
+}
+
+.info-text {
+  margin-left: 40px;
+}
+.info-text h1 {
+  margin-bottom: 15px;
+}
+p {
+  margin: 10px;
+}
+.info-text h3 {
+  margin: 15px 0 5px 0;
+}
+
+.bg-yellow {
+  background-color: rgb(255, 255, 174);
+  margin-top: 30px;
+}
+.bg-green {
+  background-color: rgb(224, 255, 177);
+}
+.bg-red {
+  background-color: rgb(255, 171, 171);
+}
+
+.card {
+  padding: 10px;
+  margin: 20px;
+  border-radius: 15px;
+  width: 50%;
+}
+.card > h2 {
+  margin: 5px;
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 0 25px 0 25px;
+  box-shadow: 4px 4px 24px 4px;
+  margin-bottom: 30px;
+}
+.info > p {
+  font-style: italic;
+}
+h3 {
+  margin: 5px;
+}
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: blue;
+}
+a:visited {
+  color: gray;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: rgb(33, 123, 0);
+}
+
+.ol1 > li {
+  padding: 5px;
+}
+.h23 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+.form {
+  display: flex;
+}
+
+.form-group {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 0;
+}
+.form-group input {
+  width: 70%;
+  padding: 10px 5px 10px 5px;
+  border-radius: 10px;
+  border: none;
+}
+
+.block {
+  height: 1000px;
+}
+textarea {
+  width: 70%;
+  padding: 10px 5px 10px 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  border: none;
+}
+.textarea1 input {
+  display: block;
+}
+
+td,
+th {
+  text-align: center;
+  padding: 5px 10px;
+}
+th {
+  border: groove;
+}
